@@ -175,6 +175,14 @@
     color: var(--role-text-head);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.cta a {
+    text-decoration: none;
+}
+
 .cta svg {
     position: relative;
     top: 0;
@@ -277,7 +285,7 @@ video {
 }
 
 #projects h2 {
-    color: var(--nav-text);
+    color: var(--sub-head);
 }
 
 #projects p {
