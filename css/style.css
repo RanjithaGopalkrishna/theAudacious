@@ -186,7 +186,6 @@ label {
     width: 120px;
     font-size: 1rem;
     background: var(--btn-bg);
-    color: var(--btn-text);
     padding: 0.7em 1em;
     padding-left: 0.9em;
     display: flex;
@@ -196,6 +195,10 @@ label {
     overflow: hidden;
     transition: all 0.2s;
     cursor: pointer;
+}
+
+#hire-me a {
+    color: var(--btn-text);
 }
 
 #hire-me span {
