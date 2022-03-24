@@ -213,7 +213,8 @@ html {
 
 /* education section  */
 
-.edu-c {
+.edu-c,
+#about h5 {
     color: var(--line);
 }
 
