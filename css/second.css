@@ -385,7 +385,6 @@ section .title::after {
 
 .contact .contact-content .left .icons {
     margin: 10px 0;
-    /* color: linear-gradient(to bottom right, #084594, #00B4D8); */
 }
 
 .contact .contact-content .info .head {
@@ -399,16 +398,11 @@ section .title::after {
     font-size: 1.2rem;
 }
 
-
-/* .contact .right form .fields */
-
-.contact form .fields {
-    display: flex;
+@media screen and (min-width: 960px) {
+    .contact form .fields {
+        display: flex;
+    }
 }
-
-
-/* .contact .right form .field,
-.contact .right form .fields .field */
 
 .contact form .field,
 .contact form .fields .field {
@@ -417,9 +411,6 @@ section .title::after {
     margin-bottom: 15px;
 }
 
-
-/* .contact .right form .textarea */
-
 .contact form .textarea {
     height: 80px;
     width: 100%;
@@ -427,16 +418,9 @@ section .title::after {
     border-radius: 6px;
 }
 
-
-/* .contact .right form .name */
-
 .contact form .name {
     margin-right: 10px;
 }
-
-
-/* .contact form .field input,
-.contact form .textarea textarea */
 
 .contact form .field input,
 .contact form .textarea textarea {
@@ -451,25 +435,15 @@ section .title::after {
     background-color: var(--input-box);
 }
 
-
-/* .contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus */
-
 .contact form .field input:focus,
 .contact form .textarea textarea:focus {
     border-color: #b3b3b3;
 }
 
-
-/* .contact .right form .textarea textarea */
-
 .contact form .textarea textarea {
     padding-top: 10px;
     resize: none;
 }
-
-
-/* .contact .right form .button-area  */
 
 .contact form .button-area {
     display: flex;
@@ -591,6 +565,10 @@ section .title::after {
         font-size: 23px;
         line-height: 38px;
     }
+    /* .field {
+        display: flex;
+        flex-direction: column;
+    } */
 }
 
 
